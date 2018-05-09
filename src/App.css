@@ -1,0 +1,30 @@
+.App {
+    text-align: center;
+}
+
+.stats-panel {
+    min-height: 100%;
+    background-color: burlywood;
+    width: 100%;
+    position: absolute;
+    margin-left: -100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.stats-panel.active {
+    margin-left: 0%;
+    opacity: 1;
+}
+
+.background {
+    box-sizing: border-box;
+    min-height: 100%;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    font-size: 48pt;
+    padding-top: 150px;
+    position: absolute;
+}
